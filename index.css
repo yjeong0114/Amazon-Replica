@@ -1,0 +1,153 @@
+* {
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+body {
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    font-weight: normal;
+}
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.maininfo {
+    border: 1px solid lightgray;
+    padding: 30px;
+    padding-top: 0px;
+
+}
+.emailbox {
+    margin-top: 0;
+    margin-bottom:15px;
+    font-weight: lighter;
+    font-size: smaller;
+    /* padding: 30px; */
+}
+#email{
+    margin-top:5px;
+    width:350px;
+    padding:5px;
+}
+.pwd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pwd1{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-weight: lighter;
+    font-size:smaller
+}
+
+.pwd2{
+    color: rgb(87, 158, 239);
+}
+#pwd{
+    margin-top:5px;
+    width:350px;
+    padding:5px;
+}
+.crttext{
+    font-weight: normal;
+    color:rgb(145, 142, 142);
+}
+
+.continue{
+    /* width:100%; */
+    margin-top: 30px;
+    
+}
+
+#ctn{
+    width: 365px;
+    background-color: rgb(246, 177, 98);
+    padding:7px;
+    /* border: none; */
+    /* display: inline-block; */
+}
+#ctn2 {
+   width: 400px; 
+   padding: 5px;
+}
+.create_account{
+    margin-bottom:50px;
+    display: flex;
+    padding-left:10px;
+    padding-right: 10px;
+    width: 100%;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.help{
+    padding: 5px;
+    margin-top: 30px;
+    color: rgb(87, 158, 239);
+}
+
+
+h4 {
+    display: flex;
+    flex-direction: row;
+}
+  
+h4:before,
+h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgb(145, 142, 142);
+    margin: auto;
+}
+
+/* footer {
+    border-top: 1px solid rgb(145, 142, 142);
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center; 
+} */
+.copyright {
+    border-top: 1px solid rgb(145, 142, 142);
+    
+    position: relative;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+
+.policy{
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: rgb(87, 158, 239);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+.company{
+    margin-top:25px;
+    font-weight: lighter;
+    font-size: small;
+    margin-bottom: 50px;
+}
